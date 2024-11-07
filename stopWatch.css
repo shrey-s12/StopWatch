@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+    background-color: #857c7c;
+}
+
+.container {
+    width: 24vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    border: 10px solid transparent;
+    /* background: conic-gradient(from 0deg, #ff0000, #00ff00, #0000ff, #ff0000); */
+    animation: rotate 2s linear infinite;
+}
+
+/* @keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} */
+
+.watch {
+    font-size: 4em;
+    margin-bottom: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.btn {
+    position: relative;
+    top: 20px;
+}
+
+button {
+    margin: 5px;
+    font-size: large;
+    border-radius: 10px;
+}
